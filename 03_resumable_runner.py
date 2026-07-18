@@ -1,7 +1,7 @@
 import json, time, os, sys
 from fl_runner import run_federated
 
-CKPT = "/home/claude/pipeline/checkpoint.json"
+CKPT = "/home/pipeline/checkpoint.json"
 T_MAIN = 10
 KEY_BITS_FAST = 160  # reduced Paillier key size purely for runtime feasibility in this
                       # sandbox; flagged explicitly in the write-up as a demo-scale
