@@ -19,8 +19,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
-CKPT_PATH = "/home/claude/pipeline/checkpoint.json"
-OUT_DIR = "/home/claude/pipeline/figs"
+CKPT_PATH = "/home/pipeline/checkpoint.json"
+OUT_DIR = "/home/pipeline/figs"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 ckpt = json.load(open(CKPT_PATH))
